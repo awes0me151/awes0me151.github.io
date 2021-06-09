@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: black;
+    background: #eeeee4;
     
 }
 .navbar {
@@ -12,11 +12,13 @@ body {
     cursor: pointer;
     padding-left: 20px;
 }
+/* use !important to override navbar-dark settings */
 .navbar-brand:hover {
     color: red !important;
 }
 .nav-link {
     margin-right: 1em !important;
+    color: white !important;
 }
 .nav-link:hover {
     background-color: cyan;
@@ -50,7 +52,7 @@ body {
 .welcome {
     left: 50%;
     position: absolute;
-    top: 35%;
+    top: 30%;
     transform: translate(-50%, -55%);
     text-align: center;
     margin-top: 200px;
@@ -73,4 +75,36 @@ body {
     margin-bottom: 15px;
     max-width: 400px;
     height: auto;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    background-color: #eeeee4;
+    
+}
+.item {
+    background-color: white;
+    padding: 20px;
+}
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    /* -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px; */
+    max-width: 100px;
+    max-height:auto;
+    margin-bottom: 30px;
+}
+
+.interests {
+    margin-bottom: 30px;
 }
