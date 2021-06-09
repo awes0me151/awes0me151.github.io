@@ -5,7 +5,7 @@ body {
     
 }
 .navbar {
-    background:#6ab446;
+    background: linear-gradient(90deg, rgba(5,5,22,1) 0%, rgba(7,92,209,1) 50%, rgba(101,39,215,1) 100%);
 }
 .nav-link,
 .navbar-brand {
@@ -17,8 +17,17 @@ body {
     margin-right: 1em !important;
 }
 .nav-link:hover {
-    color: #000;
+    color: white;
+    background-color: black;
 }
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+.header {
+    /* https://www.pinterest.com/pin/119838040054935730/ */
+    background-image: url('/imgs/blackbackground.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
