@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin's Website</title>
+    <!-- get Rancho font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet"> 
+    <!-- get Roboto font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark">
+  <nav class="navbar-dark navbar navbar-expand-md">
     <a class="navbar-brand" href="#">Justin Lau</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,20 +24,29 @@
     <div class="collapse navbar-collapse" id="main-navigation">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link link-hover" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link link-hover" href="#">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link link-hover" href="#">Portfolio</a>
             </li>
         </ul>
     </div>
 </nav>
 <header class="page-header header container-fluid">
-
+    <div class="overlay"></div>
+    <div class="welcome">
+        <h1>Welcome to my website!</h1>
+        <img src="imgs\me.png" class="personal">
+        <p>My name is Justin Lau and I'm a third-year student at Northeastern University. I'm currently studying computer science with a concentration in artificial intelligence and a minor in mathematics. I created this website to document my journeys throughout my career, and also learn some web development at the same time!</p>
+        <p>I've always had an interest for technology, as it's constantly evolving and expanding past current boundaries. By watching a fair share of futuristic movies and playing an abundance of video games growing up, the idea of artificial intelligence greatly piqued my interest. In the future, I want to create AI systems that benefit the world in fair and justifiable ways. I'm aware of the bias that AI systems are subject to, and the consequences that can arise from it.</p>
+    </div>
 </header>
+<div class="container features">
+    
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>

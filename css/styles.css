@@ -9,19 +9,24 @@ body {
 }
 .nav-link,
 .navbar-brand {
-    color: white;
     cursor: pointer;
     padding-left: 20px;
+}
+.navbar-brand:hover {
+    color: red !important;
 }
 .nav-link {
     margin-right: 1em !important;
 }
 .nav-link:hover {
-    color: white;
-    background-color: black;
+    background-color: cyan;
 }
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+.link-hover:hover {
+    color: black !important;
 }
 
 .header {
@@ -30,4 +35,42 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+/* Overlay over background image to make it darker */
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.welcome {
+    left: 50%;
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.welcome h1 {
+    color: white;
+    font-family: "Rancho", cursive;
+}
+
+.welcome p {
+    color:white;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    font-family: 'Roboto';
+}
+
+.personal {
+    margin-bottom: 15px;
+    max-width: 400px;
+    height: auto;
 }
