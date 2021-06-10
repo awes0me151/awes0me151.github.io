@@ -108,3 +108,7 @@ body {
 .interests {
     margin-bottom: 30px;
 }
+
+.center-img {
+    text-align: center;
+}
