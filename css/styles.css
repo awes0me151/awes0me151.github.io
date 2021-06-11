@@ -5,12 +5,17 @@ body {
     
 }
 .navbar {
-    background: linear-gradient(90deg, rgba(5,5,22,1) 0%, rgba(7,92,209,1) 50%, rgba(101,39,215,1) 100%);
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 }
 .nav-link,
 .navbar-brand {
     cursor: pointer;
     padding-left: 20px;
+}
+.navbar-brand {
+    color: black !important;
+    font-family: 'Yellowtail';
+    font-size: 35px;
 }
 /* use !important to override navbar-dark settings */
 .navbar-brand:hover {
@@ -19,17 +24,26 @@ body {
 .nav-link {
     margin-right: 1em !important;
     color: white !important;
+    padding-left: 20px !important;
+    font-size: 20px;
 }
 .nav-link:hover {
-    background-color: cyan;
+    font-weight: bold;
 }
 .navbar-collapse {
     justify-content: flex-end;
 }
 
 .link-hover:hover {
-    color: black !important;
+    color: red !important;
+    
 }
+
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
 
 .header {
     /* https://www.pinterest.com/pin/119838040054935730/ */
@@ -111,4 +125,14 @@ body {
 
 .center-img {
     text-align: center;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
 }
