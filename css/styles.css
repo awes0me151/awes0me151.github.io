@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #eeeee4;
+    background-image: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8);
     
 }
 .navbar {
@@ -24,8 +24,9 @@ body {
 .nav-link {
     margin-right: 1em !important;
     color: white !important;
-    padding-left: 20px !important;
+    padding-left: 15px !important;
     font-size: 20px;
+    font-family: 'Playfair Display';
 }
 .nav-link:hover {
     font-weight: bold;
@@ -39,10 +40,29 @@ body {
     
 }
 
-.fixed-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
+/* #navbar2 {
+    background-color: #333; /* Black background color 
+    position: fixed; /* Make it stick/fixed
+    top: -55px !important; 
+    width: 100%; /* Full width 
+    transition: top 0.3s; /* Transition effect when sliding down (and up) 
+    z-index: 1;
   }
+  
+  /* Style the navbar links 
+  #navbar2 a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar2 a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
 
 
 .header {
@@ -69,13 +89,14 @@ body {
     top: 30%;
     transform: translate(-50%, -55%);
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
     
 }
 
 .welcome h1 {
     color: white;
     font-family: "Rancho", cursive;
+    font-size: 80px;
 }
 
 .welcome p {
@@ -95,12 +116,28 @@ body {
     margin: 4em auto;
     padding: 1em;
     position: relative;
-    background-color: #eeeee4;
+    /* background-image: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8); */
     
+}
+
+.add-row {
+    padding-top: 50px;
+}
+
+.interests {
+    margin-bottom: 50px;
 }
 .item {
     background-color: white;
     padding: 20px;
+    border: 4px solid transparent;
+    transition: transform .2s;
+}
+
+.item:hover {
+    border: 4px solid black;
+    /* border-style:dashed; */
+    transform: scale(1.2);
 }
 .feature-title {
     color: #333;
@@ -110,16 +147,8 @@ body {
     text-transform: uppercase;
 }
 .features img {
-    /* -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px; */
     max-width: 100px;
     max-height:auto;
-    margin-bottom: 30px;
-}
-
-.interests {
     margin-bottom: 30px;
 }
 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Justin's Website</title>
     <!-- get Rancho font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,6 +14,9 @@
     <!-- get Yellowtail font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- get Playfair Display font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -24,6 +27,11 @@
 </head>
 
 <body>
+    <!-- <div id="navbar2">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div> -->
     <nav class="navbar-dark navbar navbar-expand-md">
         <a class="navbar-brand" href="#">Justin Lau</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -69,23 +77,35 @@
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
                 <h3 class="feature-title">Programming</h3>
                 <div class="center-img"><img src="imgs/computer.png" class="img-fluid"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                <p>Throughout my time in college, I've worked on a couple data science projects that garnered my interest in machine learning. I'm also working on another website highlighting my experiences in CS. For more details, check out my portfolio here, or click on the icon above!</p>
             </div>
 
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
                 <h3 class="feature-title">Basketball</h3>
                 <div class="center-img"><img src="imgs/basketball.png" class="img-fluid"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                <p>I started playing basketball at a really young age. Whether I'm in a 5v5 with my friends or shooting around by myself, it helps me destress while also getting some good exercise! I also enjoy watching the NBA; the Brooklyn Nets are my favorite team. My favorite player is James Harden.</p>
             </div>
 
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
                 <h3 class="feature-title">Video Games</h3>
                 <div class="center-img"><img src="imgs/videogames.png" class="img-fluid"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat
-                    ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                <p>During the pandemic, I've been playing more single player games like God of War, Ghost of Tsushima, Spider-Man, Red Dead Redemption 2, and the Batman: Arkham Collection. When I feel like dominating the opposition online, I usually play Call of Duty, Overwatch, and Battlefield.</p>
             </div>
+        </div>
+
+        <div class="row justify-content-evenly add-row">
+            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+                <h3 class="feature-title">TV Shows/Movies</h3>
+                <div class="center-img"><img src="imgs/tv.png" class="img-fluid"></div>
+                <p>I'm an avid fan of the MCU, and generally a fan of action movies. I also watch some anime, my favorites being Naruto, Demon Slayer, and One Punch Man.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+                <h3 class="feature-title">Music</h3>
+                <div class="center-img"><img src="imgs/music.png" class="img-fluid"></div>
+                <p>Music has become a large part of my life now; I listen to it whenever I'm coding, exercising, or just enjoying some general downtime. I mainly listen to rap music, but alternative music has gradually made its way into my playlists. </p>
+            </div>
+
         </div>
     </div>
     <footer class="page-footer">
@@ -109,6 +129,7 @@
                 <div>
                     <div class="text-center">© 2020 Copyright: MyWebsite.com</div>
     </footer>
+    <script src="js/scrolling.js"></script>
     <script src="js/main.js"></script>
 </body>
 
