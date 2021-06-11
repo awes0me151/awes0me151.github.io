@@ -29,15 +29,10 @@ body {
     font-family: 'Playfair Display';
 }
 .nav-link:hover {
-    font-weight: bold;
+    color: red !important;
 }
 .navbar-collapse {
     justify-content: flex-end;
-}
-
-.link-hover:hover {
-    color: red !important;
-    
 }
 
 /* #navbar2 {
@@ -127,20 +122,26 @@ body {
 .interests {
     margin-bottom: 50px;
 }
+
+.interests h1 {
+    text-align: center;
+    color: black;
+}
 .item {
     background-color: white;
     padding: 20px;
     border: 4px solid transparent;
     transition: transform .2s;
+    color: black;
 }
 
 .item:hover {
     border: 4px solid black;
     /* border-style:dashed; */
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .feature-title {
-    color: #333;
+    color: black;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 20px;
