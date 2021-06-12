@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Justin's Website</title>
+
+    <script src="https://use.fontawesome.com/50e11598fc.js"></script>
+    <script src="https://kit.fontawesome.com/71c784c186.js" crossorigin="anonymous"></script>
     <!-- get Rancho font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
@@ -27,11 +30,6 @@
 </head>
 
 <body>
-    <!-- <div id="navbar2">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-    </div> -->
     <nav class="navbar-dark navbar navbar-expand-md">
         <a class="navbar-brand" href="#">Justin Lau</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -40,13 +38,13 @@
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link link-hover" href="#">Home</a>
+                    <a class="nav-link link-hover" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-hover" href="#">About</a>
+                    <a class="nav-link link-hover" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-hover" href="#">Portfolio</a>
+                    <a class="nav-link link-hover" href="portfolio.html">Portfolio</a>
                 </li>
             </ul>
         </div>
@@ -55,8 +53,8 @@
     <header class="page-header header container-fluid">
         <div class="overlay"></div>
         <div class="welcome">
-            <h1>Welcome to my website!</h1>
-            <img src="imgs\me.png" class="personal">
+            <h1 id="home">Welcome to my website!</h1>
+            <img src="imgs/me.png" class="personal">
             <p>My name is Justin Lau and I'm a third-year student at Northeastern University. I'm currently studying
                 computer science with a concentration in artificial intelligence and a minor in mathematics. I created
                 this website to document my journeys throughout my career, and also learn some web development at the
@@ -71,40 +69,58 @@
 
     <div class="container features">
         <div class="interests">
-            <h1>Here are some of my interests:</h1>
+            <h1 id="about">Here are some of my interests:</h1>
         </div>
         <div class="row justify-content-around">
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
                 <h3 class="feature-title">Programming</h3>
-                <div class="center-img"><img src="imgs/computer.png" class="img-fluid"></div>
-                <p>Throughout my time in college, I've worked on a couple data science projects that garnered my interest in machine learning. I'm also working on another website highlighting my experiences in CS. For more details, click on the icon above!</p>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
-                <h3 class="feature-title">Basketball</h3>
-                <div class="center-img"><img src="imgs/basketball.png" class="img-fluid"></div>
-                <p>I started playing basketball at a really young age. Whether I'm in a 5v5 with my friends or shooting around by myself, it helps me destress while also getting some good exercise! I also enjoy watching the NBA; the Brooklyn Nets are my favorite team. My favorite player is James Harden.</p>
+                <div class="center-img">
+                    <a href="https://www.google.com/"><img src="imgs/computer.png" class="img-fluid foo"></a>
+                </div>
+                <p>Throughout my time in college, I've worked on a couple data science projects that garnered my
+                    interest in machine learning. I'm also working on another website highlighting my experiences in CS.
+                    For more details, click on the icon above!</p>
             </div>
 
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
                 <h3 class="feature-title">Video Games</h3>
-                <div class="center-img"><img src="imgs/videogames.png" class="img-fluid"></div>
-                <p>During the pandemic, I've been playing more single player games like God of War, Ghost of Tsushima, Spider-Man, Red Dead Redemption 2, and the Batman: Arkham Collection. When I feel like dominating the opposition online, I usually play Call of Duty, Overwatch, and Battlefield.</p>
+                <div class="center-img"><a href="screenshots.html"><img src="imgs/videogames.png"
+                            class="img-fluid foo"></a></div>
+                <p>During the pandemic, I've been playing more single player games like God of War, Ghost of Tsushima,
+                    Spider-Man, and Red Dead Redemption 2. When I feel like dominating the opposition online, I usually
+                    play Call of Duty, Overwatch, and Battlefield. Click the link above to see some screenshots and
+                    clips I've taken!</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+                <h3 class="feature-title">Music</h3>
+                <div class="center-img"><a href="https://open.spotify.com/user/awes0me151?si=e0b9f2241bc34070"><img
+                            src="imgs/music.png" class="img-fluid foo"></a></div>
+                <p>Music has become a large part of my life now; I listen to it whenever I'm coding, exercising, or just
+                    enjoying some general downtime. I mainly listen to rap music, but alternative music has gradually
+                    made its way into my playlists. Click the icon above to check out my Spotify profile! </p>
             </div>
         </div>
 
         <div class="row justify-content-evenly add-row">
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
-                <h3 class="feature-title">TV Shows/Movies</h3>
-                <div class="center-img"><img src="imgs/tv.png" class="img-fluid"></div>
-                <p>I'm an avid fan of the MCU, and generally a fan of action movies. I also watch some anime, my favorites being Naruto, Demon Slayer, and One Punch Man.</p>
+                <h3 class="feature-title">Basketball</h3>
+                <div class="center-img">
+                    <img src="imgs/basketball.png" class="img-fluid">
+                </div>
+                <p>I started playing basketball at a really young age. Whether I'm in a 5v5 with my friends or shooting
+                    around by myself, it helps me destress while also getting some good exercise! I also enjoy watching
+                    the NBA; the Brooklyn Nets are my favorite team. My favorite player is James Harden.</p>
             </div>
 
             <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
-                <h3 class="feature-title">Music</h3>
-                <div class="center-img"><img src="imgs/music.png" class="img-fluid"></div>
-                <p>Music has become a large part of my life now; I listen to it whenever I'm coding, exercising, or just enjoying some general downtime. I mainly listen to rap music, but alternative music has gradually made its way into my playlists. </p>
+                <h3 class="feature-title">TV Shows/Movies</h3>
+                <div class="center-img"><img src="imgs/tv.png" class="img-fluid"></div>
+                <p>I'm an avid fan of the MCU, and generally a fan of action movies. I also watch some anime, my
+                    favorites being Naruto, Demon Slayer, and One Punch Man.</p>
             </div>
+
+
 
         </div>
     </div>
@@ -113,21 +129,22 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis
-                        placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                    <p>That's all folks! Thanks for getting this far. </p>
+                    <p>Feel free to contact me with any questions, concerns, suggestions, or just a casual conversation.
+                    </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                    <p>1640 Riverside Drive, Hill Valley, California
-                        <br />info@mywebsite.com
-                        <br />+ 01 234 567 88
-                        <br />+ 01 234 567 89
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Queens, New York
+                        <br /><i class="fa fa-envelope"></i> <a class="footer-link"
+                            href="mailto:justinlau73@gmail.com">justinlau73@gmail.com</a>
+                        <br /><i class="fab fa-linkedin"></i> <a class="footer-link"
+                            href="https://www.linkedin.com/in/justinlau73/">LinkedIn</a>
+                        <br /><i class="fab fa-github"></i> <a class="footer-link"
+                            href="https://github.com/awes0me151">GitHub</a>
                     </p>
                 </div>
-                <div>
-                    <div class="text-center">© 2020 Copyright: MyWebsite.com</div>
     </footer>
     <script src="js/scrolling.js"></script>
     <script src="js/main.js"></script>
