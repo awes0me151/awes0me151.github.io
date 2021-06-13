@@ -94,7 +94,21 @@ body {
     padding-right: 20px;
 }
 .bar {
-    background-color: white;
+    background-color: #f9f9ff;
+    padding-bottom: 50px;
+    text-align:center;
+}
+
+.bar h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: Georgia;
+    color: black;
+}
+
+.bar p {
+    color:black;
+
 }
 /* Style interests section */
 .features {
@@ -115,6 +129,7 @@ body {
 }
 
 .interests h1 {
+    font-family: Georgia;
     text-align: center;
     color: black;
 }
