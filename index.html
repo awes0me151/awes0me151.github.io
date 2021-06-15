@@ -22,9 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
@@ -32,7 +30,7 @@
 <body>
     <nav class="navbar-dark navbar navbar-expand-md">
         <a class="navbar-brand" href="#">Justin Lau</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navigation">
@@ -63,12 +61,12 @@
                 this website to document my journeys throughout my career, and also learn some web development at the
                 same time!</p>
             <p>Check out some of my links below:</p>
-            <a class="header-link" href="https://github.com/awes0me151" data-toggle="tooltip" title="My GitHub"><i
+            <a class="header-link" href="https://github.com/awes0me151" data-bs-toggle="tooltip" title="My GitHub"><i
                     class="fab fa-github fa-2x"></i></a>
             <a class="header-link"
                 href="https://docs.google.com/document/d/1WLfdx3MKIunWX_3--V3S6Wtz0kaIB1sIJor9XTePTBE/edit?usp=sharing"
-                data-toggle="tooltip" title="My Resume"><i class="far fa-file-alt fa-2x"></i></a>
-            <a class="header-link" href="https://www.linkedin.com/in/justinlau73/" data-toggle="tooltip"
+                data-bs-toggle="tooltip" title="My Resume"><i class="far fa-file-alt fa-2x"></i></a>
+            <a class="header-link" href="https://www.linkedin.com/in/justinlau73/" data-bs-toggle="tooltip"
                 title="My LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
         </div>
     </header>
@@ -85,9 +83,6 @@
             get started. I'm eager to see the connections between what I've learned in my classes and real-world
             scenarios.
         </p>
-        <p>
-            
-        </p>
     </div>
 
     <div class="container features">
@@ -95,7 +90,7 @@
             <h1 id="about">Here are some of my interests:</h1>
         </div>
         <div class="row justify-content-around">
-            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+            <div class="col-lg-3 col-md-4 col-sm-12 item2 shadow">
                 <h3 class="feature-title">Programming</h3>
                 <div class="center-img">
                     <a href="https://www.google.com/"><img src="imgs/computer.png" class="img-fluid foo"></a>
@@ -105,7 +100,7 @@
                     For more details, click on the icon above!</p>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+            <div class="col-lg-3 col-md-4 col-sm-12 item2 shadow">
                 <h3 class="feature-title">Video Games</h3>
                 <div class="center-img"><a href="screenshots.html"><img src="imgs/videogames.png"
                             class="img-fluid foo"></a></div>
@@ -115,10 +110,10 @@
                     clips I've taken!</p>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+            <div class="col-lg-3 col-md-4 col-sm-12 item2 shadow">
                 <h3 class="feature-title">Music</h3>
                 <div class="center-img"><a href="https://open.spotify.com/user/awes0me151?si=e0b9f2241bc34070"
-                        data-toggle="tooltip" title="My Spotify"><img src="imgs/music.png" class="img-fluid foo"></a>
+                        data-bs-toggle="tooltip" title="My Spotify"><img src="imgs/music.png" class="img-fluid foo"></a>
                 </div>
                 <p>Music has become a large part of my life now; I listen to it whenever I'm coding, exercising, or just
                     enjoying some general downtime. I mainly listen to rap music, but alternative music has gradually
@@ -127,7 +122,7 @@
         </div>
 
         <div class="row justify-content-evenly add-row">
-            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+            <div class="col-lg-3 col-md-4 col-sm-12 item2 shadow">
                 <h3 class="feature-title">Basketball</h3>
                 <div class="center-img">
                     <img src="imgs/basketball.png" class="img-fluid">
@@ -137,14 +132,16 @@
                     the NBA; the Brooklyn Nets are my favorite team. My favorite player is James Harden.</p>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-12 item shadow">
+            <div class="col-lg-3 col-md-4 col-sm-12 item2 shadow">
                 <h3 class="feature-title">TV Shows/Movies</h3>
                 <div class="center-img"><img src="imgs/tv.png" class="img-fluid"></div>
                 <p>I'm an avid fan of the MCU, and generally a fan of action movies. I also watch some anime, my
                     favorites being Naruto, Demon Slayer, and One Punch Man.</p>
             </div>
-        </div>
+        </div>      
     </div>
+
+    
     <footer id="foot" class="page-footer">
         <div class="container">
             <div class="row">
@@ -166,9 +163,10 @@
                     </p>
                 </div>
     </footer>
-    <script src="js/scrolling.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/active.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
