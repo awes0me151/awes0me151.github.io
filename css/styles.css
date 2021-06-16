@@ -114,9 +114,7 @@ body {
 .features {
     margin: 4em auto;
     padding: 1em;
-    position: relative;
-    /* background-image: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8); */
-    
+    position: relative;    
 }
 
 .add-row {
@@ -182,12 +180,34 @@ body {
 }
 
 /* Media page */
+.carousel-container {
+    background-image: linear-gradient(90deg, #43C6AC, #F8FFAE);
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+.carousel-container h1 {
+    padding-top: 40px;
+    margin-bottom: -30px;
+}
+
 .carousel-item {
     height: 900px;
-    /* width: 500px; */
-    background: #777;
-    color: white;
+    background-image: linear-gradient(90deg, #43C6AC, #F8FFAE);
     position: relative;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    width: 1700px;
+    transform: translate(100px);
+}
+
+.carousel-caption p {
+    opacity: .7;
+    color:black;
 }
 
 @media (max-width: 575.98px) {
