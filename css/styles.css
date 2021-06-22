@@ -1,8 +1,14 @@
-body {
+body#page1 {
     padding: 0;
     margin: 0;
     background-image: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8);
     
+}
+
+body#page2 {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(90deg, #2C3E50, #4CA1AF);
 }
 
 /* Styling navbar */
@@ -160,6 +166,10 @@ body {
     text-align: center;
 }
 
+.foo:hover {
+    opacity: .3;
+}
+
 /* Styling footer */
 .page-footer {
     background-color: black;
@@ -167,9 +177,7 @@ body {
     padding: 60px 0 30px;
 }
 
-.foo:hover {
-    opacity: .3;
-}
+
 
 .footer-link {
     color: white;
@@ -212,6 +220,15 @@ body {
     color: black;
 }
 
+/* Portfolio Section */
+#portfolio {
+    color: white;
+    /* text-shadow:
+    -1px -1px 0 blue,
+    1px -1px 0 red,
+    -1px 1px 0 red,
+    1px 1px 0 red; */
+}
 @media (max-width: 575.98px) {
     .welcome {
         left: 0;
