@@ -229,6 +229,38 @@ body#page2 {
     -1px 1px 0 red,
     1px 1px 0 red; */
 }
+
+/* Style portfolio section */
+.interests h1 {
+    font-family: Georgia;
+    text-align: center;
+    color: black;
+}
+.item2 {
+    background-color: white;
+    padding: 20px;
+    border: 4px solid transparent;
+    transition: transform .2s;
+    color: black;
+}
+
+.item2:hover {
+    border: 4px solid black;
+    transform: scale(1.1);
+}
+.feature-title#ppp {
+    color: red;
+}
+.features img#pimg {
+    max-width: auto;
+    max-height:200px;
+}
+
+.foo:hover {
+    opacity: .3;
+}
+
+
 @media (max-width: 575.98px) {
     .welcome {
         left: 0;
