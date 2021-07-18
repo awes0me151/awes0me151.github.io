@@ -166,8 +166,12 @@ body#page2 {
     text-align: center;
 }
 
-.foo:hover {
+.img-fluid:hover {
     opacity: .3;
+}
+
+.no-link:hover {
+    opacity: 1;
 }
 
 /* Styling footer */
