@@ -74,7 +74,6 @@ body#page2 {
     transform: translate(-50%, -55%);
     text-align: center;
     margin-top: 250px;
-    /* padding-bottom: 50px; */
     
 }
 
@@ -93,9 +92,13 @@ body#page2 {
 
 .personal {
     margin-bottom: 50px;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
-    text-align: center
+    text-align: center;
+}
+
+.test {
+    margin-bottom: -100px;
 }
 
 .header-link {
@@ -215,17 +218,12 @@ body#page2 {
 
 .carousel-item img {
     max-height: 100%;
-    /* width: 80%; */
+    width: 90%;
 }
-.carousel-caption {
-    margin-top: -50px;
-}
+
 
 .carousel-caption p {
     opacity: .7;
-}
-
-.caption-dark {
     color: black;
 }
 
