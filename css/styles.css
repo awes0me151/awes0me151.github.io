@@ -2,7 +2,6 @@ body#page1 {
     padding: 0;
     margin: 0;
     background-image: linear-gradient(90deg, #FEAC5E, #C779D0, #4BC0C8);
-    
 }
 
 body#page2 {
@@ -64,22 +63,23 @@ body#page2 {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 .welcome {
     left: 50%;
     position: absolute;
-    top: 30%;
+    top: 15%;
     transform: translate(-50%, -55%);
     text-align: center;
-    margin-top: 250px;
+    margin-top: 400px;
     
 }
 
 .welcome h1 {
     color: white;
     font-family: "Rancho", cursive;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .welcome p {
@@ -90,9 +90,14 @@ body#page2 {
 }
 
 .personal {
-    margin-bottom: 50px;
-    max-width: 400px;
+    padding-bottom: 40px;
+    max-width: 300px;
     height: auto;
+    text-align: center;
+}
+
+.test {
+    padding-bottom: 300px;
 }
 
 .header-link {
@@ -100,6 +105,7 @@ body#page2 {
     padding-right: 20px;
 }
 .bar {
+    /* margin-top: 100px; */
     background-color: #f9f9ff;
     padding-bottom: 50px;
     text-align:center;
@@ -130,6 +136,7 @@ body#page2 {
 .interests {
     margin-bottom: 50px;
     margin-top: -20px;
+    /* padding-bottom: 50px; */
 }
 
 .interests h1 {
@@ -179,9 +186,8 @@ body#page2 {
     background-color: black;
     color: white;
     padding: 60px 0 30px;
+    /* padding-top: 100px; */
 }
-
-
 
 .footer-link {
     color: white;
@@ -195,7 +201,6 @@ body#page2 {
 .carousel-container {
     background-image: linear-gradient(90deg, #43C6AC, #F8FFAE);
     padding-bottom: 20px;
-    /* padding-top: 20px; */
 }
 
 .carousel-container h1 {
@@ -204,23 +209,28 @@ body#page2 {
 }
 
 .carousel-item {
-    height: 900px;
+    height: 750px;
     background-image: linear-gradient(90deg, #43C6AC, #F8FFAE);
     position: relative;
-    display: block;
+    display: inline-block;
+    text-align: center;
 }
 
 .carousel-item img {
     max-height: 100%;
-    width: 1700px;
-    transform: translate(100px);
+    width: 90%;
 }
+
+/* .img-test {
+    padding-bottom: -200px;
+}
+
+.carousel-caption {
+    padding-top: -500px;
+} */
 
 .carousel-caption p {
     opacity: .7;
-}
-
-.caption-dark {
     color: black;
 }
 
@@ -252,9 +262,7 @@ body#page2 {
     border: 4px solid black;
     transform: scale(1.1);
 }
-.feature-title#ppp {
-    color: red;
-}
+
 .features img#pimg {
     max-width: auto;
     max-height:200px;
