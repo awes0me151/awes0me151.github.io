@@ -260,9 +260,9 @@ body#page2 {
     max-height:200px;
 }
 
-.foo:hover {
+/* .foo:hover {
     opacity: .3;
-}
+} */
 
 
 @media (max-width: 575.98px) {
